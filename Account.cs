@@ -28,7 +28,7 @@ namespace Banking
             }
             else
             {
-                Balance = result;
+                
             }
         }
         public void Deposit(double amount)
@@ -37,7 +37,7 @@ namespace Banking
             if (result >= 350000)
             {
                 //raise event OverBalance
-                OverBalance();
+              
             }
             else
             {
