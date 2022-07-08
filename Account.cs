@@ -37,11 +37,11 @@ namespace Banking
             if (result >= 350000)
             {
                 //raise event OverBalance
-                OverBalance();
+                
             }
             else
             {
-                Balance = result;
+              
             }
         }
     }
